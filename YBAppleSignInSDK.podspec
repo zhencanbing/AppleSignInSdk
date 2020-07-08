@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YBAppleSignInSdk"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of YBAppleSignInSdk."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "git@github.com:zhencanbing/AppleSignInSdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com:zhencanbing/AppleSignInSdk.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

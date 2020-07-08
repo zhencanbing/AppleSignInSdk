@@ -6,7 +6,7 @@ target 'YBAppleSignInDemo' do
   
   use_frameworks!
 
-  pod 'YBAppleSignInSDK', :path => './YBAppleSignInDemo/'
+  pod 'YBAppleSignInSdk', :path => './YBAppleSignInDemo/'
 
   target 'YBAppleSignInDemoTests' do
     inherit! :search_paths

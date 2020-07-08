@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2757A22324B5B65D00102B63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2757A22224B5B65D00102B63 /* AppDelegate.m */; };
+		2757A22624B5B65D00102B63 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2757A22524B5B65D00102B63 /* SceneDelegate.m */; };
+		2757A22924B5B65D00102B63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2757A22824B5B65D00102B63 /* ViewController.m */; };
+		2757A22C24B5B65D00102B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2757A22A24B5B65D00102B63 /* Main.storyboard */; };
+		2757A22E24B5B66000102B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2757A22D24B5B66000102B63 /* Assets.xcassets */; };
+		2757A23124B5B66000102B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2757A22F24B5B66000102B63 /* LaunchScreen.storyboard */; };
+		2757A23424B5B66100102B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2757A23324B5B66100102B63 /* main.m */; };
+		2757A23E24B5B66100102B63 /* YBAppleSignInDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2757A23D24B5B66100102B63 /* YBAppleSignInDemoTests.m */; };
+		2757A24924B5B66100102B63 /* YBAppleSignInDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2757A24824B5B66100102B63 /* YBAppleSignInDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2757A23A24B5B66100102B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2757A21624B5B65D00102B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2757A21D24B5B65D00102B63;
+			remoteInfo = YBAppleSignInDemo;
+		};
+		2757A24524B5B66100102B63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2757A21624B5B65D00102B63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2757A21D24B5B65D00102B63;
+			remoteInfo = YBAppleSignInDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2757A21E24B5B65D00102B63 /* YBAppleSignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBAppleSignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2757A22124B5B65D00102B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2757A22224B5B65D00102B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2757A22424B5B65D00102B63 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2757A22524B5B65D00102B63 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2757A22724B5B65D00102B63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2757A22824B5B65D00102B63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2757A22B24B5B65D00102B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2757A22D24B5B66000102B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2757A23024B5B66000102B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2757A23224B5B66000102B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2757A23324B5B66100102B63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2757A23924B5B66100102B63 /* YBAppleSignInDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBAppleSignInDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2757A23D24B5B66100102B63 /* YBAppleSignInDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAppleSignInDemoTests.m; sourceTree = "<group>"; };
+		2757A23F24B5B66100102B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2757A24424B5B66100102B63 /* YBAppleSignInDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBAppleSignInDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2757A24824B5B66100102B63 /* YBAppleSignInDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAppleSignInDemoUITests.m; sourceTree = "<group>"; };
+		2757A24A24B5B66100102B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2757A21B24B5B65D00102B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2757A23624B5B66100102B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2757A24124B5B66100102B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2757A21524B5B65D00102B63 = {
+			isa = PBXGroup;
+			children = (
+				2757A22024B5B65D00102B63 /* YBAppleSignInDemo */,
+				2757A23C24B5B66100102B63 /* YBAppleSignInDemoTests */,
+				2757A24724B5B66100102B63 /* YBAppleSignInDemoUITests */,
+				2757A21F24B5B65D00102B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2757A21F24B5B65D00102B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2757A21E24B5B65D00102B63 /* YBAppleSignInDemo.app */,
+				2757A23924B5B66100102B63 /* YBAppleSignInDemoTests.xctest */,
+				2757A24424B5B66100102B63 /* YBAppleSignInDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2757A22024B5B65D00102B63 /* YBAppleSignInDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2757A22124B5B65D00102B63 /* AppDelegate.h */,
+				2757A22224B5B65D00102B63 /* AppDelegate.m */,
+				2757A22424B5B65D00102B63 /* SceneDelegate.h */,
+				2757A22524B5B65D00102B63 /* SceneDelegate.m */,
+				2757A22724B5B65D00102B63 /* ViewController.h */,
+				2757A22824B5B65D00102B63 /* ViewController.m */,
+				2757A22A24B5B65D00102B63 /* Main.storyboard */,
+				2757A22D24B5B66000102B63 /* Assets.xcassets */,
+				2757A22F24B5B66000102B63 /* LaunchScreen.storyboard */,
+				2757A23224B5B66000102B63 /* Info.plist */,
+				2757A23324B5B66100102B63 /* main.m */,
+			);
+			path = YBAppleSignInDemo;
+			sourceTree = "<group>";
+		};
+		2757A23C24B5B66100102B63 /* YBAppleSignInDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2757A23D24B5B66100102B63 /* YBAppleSignInDemoTests.m */,
+				2757A23F24B5B66100102B63 /* Info.plist */,
+			);
+			path = YBAppleSignInDemoTests;
+			sourceTree = "<group>";
+		};
+		2757A24724B5B66100102B63 /* YBAppleSignInDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2757A24824B5B66100102B63 /* YBAppleSignInDemoUITests.m */,
+				2757A24A24B5B66100102B63 /* Info.plist */,
+			);
+			path = YBAppleSignInDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2757A21D24B5B65D00102B63 /* YBAppleSignInDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2757A24D24B5B66100102B63 /* Build configuration list for PBXNativeTarget "YBAppleSignInDemo" */;
+			buildPhases = (
+				2757A21A24B5B65D00102B63 /* Sources */,
+				2757A21B24B5B65D00102B63 /* Frameworks */,
+				2757A21C24B5B65D00102B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBAppleSignInDemo;
+			productName = YBAppleSignInDemo;
+			productReference = 2757A21E24B5B65D00102B63 /* YBAppleSignInDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2757A23824B5B66100102B63 /* YBAppleSignInDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2757A25024B5B66100102B63 /* Build configuration list for PBXNativeTarget "YBAppleSignInDemoTests" */;
+			buildPhases = (
+				2757A23524B5B66100102B63 /* Sources */,
+				2757A23624B5B66100102B63 /* Frameworks */,
+				2757A23724B5B66100102B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2757A23B24B5B66100102B63 /* PBXTargetDependency */,
+			);
+			name = YBAppleSignInDemoTests;
+			productName = YBAppleSignInDemoTests;
+			productReference = 2757A23924B5B66100102B63 /* YBAppleSignInDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2757A24324B5B66100102B63 /* YBAppleSignInDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2757A25324B5B66100102B63 /* Build configuration list for PBXNativeTarget "YBAppleSignInDemoUITests" */;
+			buildPhases = (
+				2757A24024B5B66100102B63 /* Sources */,
+				2757A24124B5B66100102B63 /* Frameworks */,
+				2757A24224B5B66100102B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2757A24624B5B66100102B63 /* PBXTargetDependency */,
+			);
+			name = YBAppleSignInDemoUITests;
+			productName = YBAppleSignInDemoUITests;
+			productReference = 2757A24424B5B66100102B63 /* YBAppleSignInDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2757A21624B5B65D00102B63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = ybgo;
+				TargetAttributes = {
+					2757A21D24B5B65D00102B63 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					2757A23824B5B66100102B63 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2757A21D24B5B65D00102B63;
+					};
+					2757A24324B5B66100102B63 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 2757A21D24B5B65D00102B63;
+					};
+				};
+			};
+			buildConfigurationList = 2757A21924B5B65D00102B63 /* Build configuration list for PBXProject "YBAppleSignInDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2757A21524B5B65D00102B63;
+			productRefGroup = 2757A21F24B5B65D00102B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2757A21D24B5B65D00102B63 /* YBAppleSignInDemo */,
+				2757A23824B5B66100102B63 /* YBAppleSignInDemoTests */,
+				2757A24324B5B66100102B63 /* YBAppleSignInDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2757A21C24B5B65D00102B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2757A23124B5B66000102B63 /* LaunchScreen.storyboard in Resources */,
+				2757A22E24B5B66000102B63 /* Assets.xcassets in Resources */,
+				2757A22C24B5B65D00102B63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2757A23724B5B66100102B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2757A24224B5B66100102B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2757A21A24B5B65D00102B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2757A22924B5B65D00102B63 /* ViewController.m in Sources */,
+				2757A22324B5B65D00102B63 /* AppDelegate.m in Sources */,
+				2757A23424B5B66100102B63 /* main.m in Sources */,
+				2757A22624B5B65D00102B63 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2757A23524B5B66100102B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2757A23E24B5B66100102B63 /* YBAppleSignInDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2757A24024B5B66100102B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2757A24924B5B66100102B63 /* YBAppleSignInDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2757A23B24B5B66100102B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2757A21D24B5B65D00102B63 /* YBAppleSignInDemo */;
+			targetProxy = 2757A23A24B5B66100102B63 /* PBXContainerItemProxy */;
+		};
+		2757A24624B5B66100102B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2757A21D24B5B65D00102B63 /* YBAppleSignInDemo */;
+			targetProxy = 2757A24524B5B66100102B63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2757A22A24B5B65D00102B63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2757A22B24B5B65D00102B63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2757A22F24B5B66000102B63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2757A23024B5B66000102B63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2757A24B24B5B66100102B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2757A24C24B5B66100102B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2757A24E24B5B66100102B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6HL4ANVNK;
+				INFOPLIST_FILE = YBAppleSignInDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lishua.jlpay.com.YBAppleSignInDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2757A24F24B5B66100102B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6HL4ANVNK;
+				INFOPLIST_FILE = YBAppleSignInDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lishua.jlpay.com.YBAppleSignInDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2757A25124B5B66100102B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6HL4ANVNK;
+				INFOPLIST_FILE = YBAppleSignInDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lishua.jlpay.com.YBAppleSignInDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBAppleSignInDemo.app/YBAppleSignInDemo";
+			};
+			name = Debug;
+		};
+		2757A25224B5B66100102B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6HL4ANVNK;
+				INFOPLIST_FILE = YBAppleSignInDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lishua.jlpay.com.YBAppleSignInDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBAppleSignInDemo.app/YBAppleSignInDemo";
+			};
+			name = Release;
+		};
+		2757A25424B5B66100102B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6HL4ANVNK;
+				INFOPLIST_FILE = YBAppleSignInDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lishua.jlpay.com.YBAppleSignInDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YBAppleSignInDemo;
+			};
+			name = Debug;
+		};
+		2757A25524B5B66100102B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6HL4ANVNK;
+				INFOPLIST_FILE = YBAppleSignInDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lishua.jlpay.com.YBAppleSignInDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YBAppleSignInDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2757A21924B5B65D00102B63 /* Build configuration list for PBXProject "YBAppleSignInDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2757A24B24B5B66100102B63 /* Debug */,
+				2757A24C24B5B66100102B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2757A24D24B5B66100102B63 /* Build configuration list for PBXNativeTarget "YBAppleSignInDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2757A24E24B5B66100102B63 /* Debug */,
+				2757A24F24B5B66100102B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2757A25024B5B66100102B63 /* Build configuration list for PBXNativeTarget "YBAppleSignInDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2757A25124B5B66100102B63 /* Debug */,
+				2757A25224B5B66100102B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2757A25324B5B66100102B63 /* Build configuration list for PBXNativeTarget "YBAppleSignInDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2757A25424B5B66100102B63 /* Debug */,
+				2757A25524B5B66100102B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2757A21624B5B65D00102B63 /* Project object */;
+}

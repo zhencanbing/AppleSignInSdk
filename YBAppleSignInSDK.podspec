@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "YBAppleSignInSDK"
+  spec.name         = "YBAppleSignInSdk"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of YBAppleSignInSDK."
+  spec.summary      = "A short description of YBAppleSignInSdk."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -90,10 +90,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "YBAppleSignInSDK/*.{h,m}"
+  spec.source_files  = "YBAppleSignInSdk/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "YBAppleSignInSDK/*.h"
+  spec.public_header_files = "YBAppleSignInSdk/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

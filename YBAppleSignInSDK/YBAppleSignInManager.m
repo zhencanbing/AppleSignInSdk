@@ -131,7 +131,7 @@ static NSString *kAppleSignInUserIdentity = @"kAppleSignInUserIdentity";
 #pragma mark - ASAuthorizationControllerDelegate
 - (void)authorizationController:(ASAuthorizationController *)controller didCompleteWithAuthorization:(ASAuthorization *)authorization API_AVAILABLE(ios(13.0)) {
     
-    DLog(@"授权完成：authorization：%@\n controller:%@\n", authorization, controller);
+    NSLog(@"授权完成：authorization：%@\n controller:%@\n", authorization, controller);
     
     if ([authorization.credential isKindOfClass:[ASAuthorizationAppleIDCredential class]]) {
         // 用户登录使用ASAuthorizationAppleIDCredential
@@ -162,7 +162,7 @@ static NSString *kAppleSignInUserIdentity = @"kAppleSignInUserIdentity";
             self.appleSignInSuccessBlock(userInfo);
         }
         
-        DLog(@"identityToken:\n%@\nauthorizationCode:\n%@", identityTokenStr, authorizationCodeStr);
+        NSLog(@"identityToken:\n%@\nauthorizationCode:\n%@", identityTokenStr, authorizationCodeStr);
         
     } else if ([authorization.credential isKindOfClass:[ASPasswordCredential class]]) {
         
@@ -186,7 +186,7 @@ static NSString *kAppleSignInUserIdentity = @"kAppleSignInUserIdentity";
         
     } else {
         
-        DLog(@"授权信息均不符");
+        NSLog(@"授权信息均不符");
         
         NSError *error = [NSError errorWithDomain:@"com.apple.AuthenticationServices.AuthorizationError" code:ASAuthorizationErrorUnknown userInfo:@{}];
         if (self.appleSignInFailureBlock) {
@@ -196,7 +196,7 @@ static NSString *kAppleSignInUserIdentity = @"kAppleSignInUserIdentity";
 }
 - (void)authorizationController:(ASAuthorizationController *)controller didCompleteWithError:(NSError *)error API_AVAILABLE(ios(13.0)) {
     
-    DLog(@"Handle error：%@", error);
+    NSLog(@"Handle error：%@", error);
     
     if (self.appleSignInFailureBlock) {
         self.appleSignInFailureBlock(error);

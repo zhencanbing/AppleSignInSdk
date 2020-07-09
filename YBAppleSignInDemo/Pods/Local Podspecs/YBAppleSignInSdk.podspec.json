@@ -1,0 +1,23 @@
+{
+  "name": "YBAppleSignInSdk",
+  "version": "0.0.5",
+  "summary": "A short description of YBAppleSignInSdk.",
+  "homepage": "https://github.com/zhencanbing/AppleSignInSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "775417281@qq.com": "zhencanbing"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@github.com:zhencanbing/AppleSignInSdk.git",
+    "tag": "v0.0.5"
+  },
+  "source_files": "YBAppleSignInSdk/*.{h,m}",
+  "public_header_files": "YBAppleSignInSdk/*.h",
+  "requires_arc": true
+}

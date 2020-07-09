@@ -1,0 +1,6 @@
+framework module YBAppleSignInSdk {
+  umbrella header "YBAppleSignInSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

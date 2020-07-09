@@ -6,7 +6,7 @@ target 'YBAppleSignInDemo' do
   
   use_frameworks!
 
-  pod 'YBAppleSignInSdk', :path => './YBAppleSignInDemo/'
+  pod 'YBAppleSignInSdk', :git =>  'git@github.com:zhencanbing/AppleSignInSdk.git', :tag => 'v0.0.5'
 
   target 'YBAppleSignInDemoTests' do
     inherit! :search_paths

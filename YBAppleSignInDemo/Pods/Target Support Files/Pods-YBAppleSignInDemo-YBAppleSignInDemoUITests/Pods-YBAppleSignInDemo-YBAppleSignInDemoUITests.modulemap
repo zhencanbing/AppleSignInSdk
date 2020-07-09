@@ -1,0 +1,6 @@
+framework module Pods_YBAppleSignInDemo_YBAppleSignInDemoUITests {
+  umbrella header "Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -16,6 +16,9 @@
 		2757A23424B5B66100102B63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2757A23324B5B66100102B63 /* main.m */; };
 		2757A23E24B5B66100102B63 /* YBAppleSignInDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2757A23D24B5B66100102B63 /* YBAppleSignInDemoTests.m */; };
 		2757A24924B5B66100102B63 /* YBAppleSignInDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2757A24824B5B66100102B63 /* YBAppleSignInDemoUITests.m */; };
+		580F5D95E4BE37E270BE9BD6 /* Pods_YBAppleSignInDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C11AB5CB11FA66A514FC58 /* Pods_YBAppleSignInDemoTests.framework */; };
+		5A948159610CF9013DE513AA /* Pods_YBAppleSignInDemo_YBAppleSignInDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B4301AEF8B73E11430E2B9 /* Pods_YBAppleSignInDemo_YBAppleSignInDemoUITests.framework */; };
+		DADCBACFACAC4B42ABE9C306 /* Pods_YBAppleSignInDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC5DB7C2DF525E71C0B3380 /* Pods_YBAppleSignInDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FBACDE9836D4C90F6AF1C3 /* Pods-YBAppleSignInDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAppleSignInDemo.debug.xcconfig"; path = "Target Support Files/Pods-YBAppleSignInDemo/Pods-YBAppleSignInDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2757A21E24B5B65D00102B63 /* YBAppleSignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBAppleSignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2757A22124B5B65D00102B63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2757A22224B5B65D00102B63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +58,14 @@
 		2757A24424B5B66100102B63 /* YBAppleSignInDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBAppleSignInDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2757A24824B5B66100102B63 /* YBAppleSignInDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAppleSignInDemoUITests.m; sourceTree = "<group>"; };
 		2757A24A24B5B66100102B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30C11AB5CB11FA66A514FC58 /* Pods_YBAppleSignInDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBAppleSignInDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A99B31547ED66C20C67E753 /* Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1B4301AEF8B73E11430E2B9 /* Pods_YBAppleSignInDemo_YBAppleSignInDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBAppleSignInDemo_YBAppleSignInDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB43481991ACD118F2E8131A /* Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC5DB7C2DF525E71C0B3380 /* Pods_YBAppleSignInDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBAppleSignInDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D235AF2E03F96CA0C0D1DF6F /* Pods-YBAppleSignInDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAppleSignInDemoTests.release.xcconfig"; path = "Target Support Files/Pods-YBAppleSignInDemoTests/Pods-YBAppleSignInDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D8DC74144ED7DD12E2F34037 /* Pods-YBAppleSignInDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAppleSignInDemo.release.xcconfig"; path = "Target Support Files/Pods-YBAppleSignInDemo/Pods-YBAppleSignInDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E6D0F930CA762F2BD63D1D1B /* Pods-YBAppleSignInDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBAppleSignInDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-YBAppleSignInDemoTests/Pods-YBAppleSignInDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADCBACFACAC4B42ABE9C306 /* Pods_YBAppleSignInDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580F5D95E4BE37E270BE9BD6 /* Pods_YBAppleSignInDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A948159610CF9013DE513AA /* Pods_YBAppleSignInDemo_YBAppleSignInDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,8 @@
 				2757A23C24B5B66100102B63 /* YBAppleSignInDemoTests */,
 				2757A24724B5B66100102B63 /* YBAppleSignInDemoUITests */,
 				2757A21F24B5B65D00102B63 /* Products */,
+				5ADB725292BA43677635BA9E /* Pods */,
+				8EB4E2101167E5CC949E984D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +154,30 @@
 			path = YBAppleSignInDemoUITests;
 			sourceTree = "<group>";
 		};
+		5ADB725292BA43677635BA9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04FBACDE9836D4C90F6AF1C3 /* Pods-YBAppleSignInDemo.debug.xcconfig */,
+				D8DC74144ED7DD12E2F34037 /* Pods-YBAppleSignInDemo.release.xcconfig */,
+				BB43481991ACD118F2E8131A /* Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests.debug.xcconfig */,
+				3A99B31547ED66C20C67E753 /* Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests.release.xcconfig */,
+				E6D0F930CA762F2BD63D1D1B /* Pods-YBAppleSignInDemoTests.debug.xcconfig */,
+				D235AF2E03F96CA0C0D1DF6F /* Pods-YBAppleSignInDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EB4E2101167E5CC949E984D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5DB7C2DF525E71C0B3380 /* Pods_YBAppleSignInDemo.framework */,
+				A1B4301AEF8B73E11430E2B9 /* Pods_YBAppleSignInDemo_YBAppleSignInDemoUITests.framework */,
+				30C11AB5CB11FA66A514FC58 /* Pods_YBAppleSignInDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2757A24D24B5B66100102B63 /* Build configuration list for PBXNativeTarget "YBAppleSignInDemo" */;
 			buildPhases = (
+				8FE0166FB114BDC6E75FEBE0 /* [CP] Check Pods Manifest.lock */,
 				2757A21A24B5B65D00102B63 /* Sources */,
 				2757A21B24B5B65D00102B63 /* Frameworks */,
 				2757A21C24B5B65D00102B63 /* Resources */,
+				9AC12AAFC2DAC743E4BC47F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2757A25024B5B66100102B63 /* Build configuration list for PBXNativeTarget "YBAppleSignInDemoTests" */;
 			buildPhases = (
+				C1B701485BDF36F10FD6E714 /* [CP] Check Pods Manifest.lock */,
 				2757A23524B5B66100102B63 /* Sources */,
 				2757A23624B5B66100102B63 /* Frameworks */,
 				2757A23724B5B66100102B63 /* Resources */,
@@ -179,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2757A25324B5B66100102B63 /* Build configuration list for PBXNativeTarget "YBAppleSignInDemoUITests" */;
 			buildPhases = (
+				77893B77C58A12B25CFDDEC2 /* [CP] Check Pods Manifest.lock */,
 				2757A24024B5B66100102B63 /* Sources */,
 				2757A24124B5B66100102B63 /* Frameworks */,
 				2757A24224B5B66100102B63 /* Resources */,
+				9DA1D2A85DF3096D6948FD99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +307,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77893B77C58A12B25CFDDEC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE0166FB114BDC6E75FEBE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YBAppleSignInDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC12AAFC2DAC743E4BC47F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YBAppleSignInDemo/Pods-YBAppleSignInDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YBAppleSignInDemo/Pods-YBAppleSignInDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YBAppleSignInDemo/Pods-YBAppleSignInDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DA1D2A85DF3096D6948FD99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests/Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B701485BDF36F10FD6E714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YBAppleSignInDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2757A21A24B5B65D00102B63 /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		2757A24E24B5B66100102B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FBACDE9836D4C90F6AF1C3 /* Pods-YBAppleSignInDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +604,7 @@
 		};
 		2757A24F24B5B66100102B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8DC74144ED7DD12E2F34037 /* Pods-YBAppleSignInDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +622,7 @@
 		};
 		2757A25124B5B66100102B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D0F930CA762F2BD63D1D1B /* Pods-YBAppleSignInDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +643,7 @@
 		};
 		2757A25224B5B66100102B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D235AF2E03F96CA0C0D1DF6F /* Pods-YBAppleSignInDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +664,7 @@
 		};
 		2757A25424B5B66100102B63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB43481991ACD118F2E8131A /* Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6HL4ANVNK;
@@ -529,6 +683,7 @@
 		};
 		2757A25524B5B66100102B63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A99B31547ED66C20C67E753 /* Pods-YBAppleSignInDemo-YBAppleSignInDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6HL4ANVNK;

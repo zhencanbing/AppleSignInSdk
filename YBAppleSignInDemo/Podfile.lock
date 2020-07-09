@@ -1,0 +1,22 @@
+PODS:
+  - YBAppleSignInSdk (0.0.5)
+
+DEPENDENCIES:
+  - "YBAppleSignInSdk (from `git@github.com:zhencanbing/AppleSignInSdk.git`, tag `v0.0.5`)"
+
+EXTERNAL SOURCES:
+  YBAppleSignInSdk:
+    :git: "git@github.com:zhencanbing/AppleSignInSdk.git"
+    :tag: v0.0.5
+
+CHECKOUT OPTIONS:
+  YBAppleSignInSdk:
+    :git: "git@github.com:zhencanbing/AppleSignInSdk.git"
+    :tag: v0.0.5
+
+SPEC CHECKSUMS:
+  YBAppleSignInSdk: b1ba39739ec6c1e6852abcc822409542c99302a5
+
+PODFILE CHECKSUM: dd7fbdb75dbbd431d937248bee8ba59a1e1414d3
+
+COCOAPODS: 1.9.2

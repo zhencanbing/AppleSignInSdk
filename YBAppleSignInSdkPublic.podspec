@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "YBAppleSignInSdk/*.{h,m}"
-  spec.exclude_files = "YBAppleSignInSdk/*.h"
+  spec.public_header_files = "YBAppleSignInSdk/*.h"
 
   # spec.public_header_files = "Classes/**/*.h"
 
